@@ -14,9 +14,6 @@ function App() {
   return (
     <div className="App"> 
        <Router>
-      <header >
-        {/* <p>yugg</p> */}
-        </header>
       <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/register" element={<Register />} />
